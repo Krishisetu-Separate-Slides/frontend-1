@@ -1,0 +1,219 @@
+.container{
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url("https://images.pexels.com/photos/259280/pexels-photo-259280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  position: relative;
+  width: 100vw;
+  background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    
+}
+
+ .upper{
+
+ 
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+
+.header{
+
+ display: flex;
+ justify-content: space-between;
+ 
+}
+
+.logoArea{
+  width: 10%;
+  display: flex;
+  color: #fff;
+  font-weight: bolder;
+  align-items: center;
+  font-size: 2rem;
+  gap: 10px;
+}
+
+.logo{
+  height: 70px;
+  width: 70px;
+ border-radius: 50%;
+ border: 2px solid black;
+ 
+  
+}
+
+.logoName{
+  margin-top:20px;
+}
+
+
+.Nav{
+ width: 50%;
+ display: flex;
+ gap: 40px;
+
+}
+
+.navbarContent{
+
+  color: #fff;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+} 
+
+ .Content{
+margin-inline: 20px;
+  display: flex;
+  margin-top: 100px;
+justify-content: space-between;
+} 
+
+
+.leftcontent{
+  width: 30%;
+  margin-left: 50px;
+}
+
+.head{
+  font-size: 2.5rem;
+  color: #ffff;
+ font-weight: bolder;
+ margin-left: 50px;
+}
+
+.pre{
+  color: #6adf1d;
+  font-weight: 800;
+  margin-left: 100px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  border: 2px solid white;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: large;
+  padding-inline: 30px;
+}
+
+.button2{
+  border: 2px solid white;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: large;
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-inline: 40px;
+}
+
+.slidePart{
+  display: flex;
+  margin-right: 30px;
+}
+
+
+.slides{
+height: 300px;
+width: 200px;
+border: 2px solid white;
+border-radius: 20px;
+margin-top: 35px;
+margin-inline: -20px;
+
+background-position: center; 
+background-repeat: no-repeat; 
+background-attachment: fixed;
+background-size: cover;
+object-fit: cover;
+}
+
+.slides:hover{
+  transform: scale(1.09);
+  transition: 2s;
+ }
+
+.img1{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.midslides{
+  height: 350px;
+  width: 230px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-position: center; 
+  position: relative;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  }
+ .midslides:hover{
+  transform: scale(1.09);
+  transition: 2s;
+ }
+
+  .foot{
+    height: 7%;
+    width: 100%;
+    background-color: #fff;
+   margin: 110px auto;
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+  }
+
+  .footerConter{
+
+ font-size: larger;
+ font-weight: bold;
+ margin-top: 8px;
+  }
+
+
+
+
+
+/* Responsive adjustments for mobile screens */
+@media only screen and (max-width: 480px) {
+  .logoArea {
+    font-size: 1rem;
+  }
+
+  .Nav {
+    display: none; /* Hide nav on small screens; you may want to use a hamburger menu */
+  }
+
+  .Content {
+    margin-top: 20px;
+  }
+
+  .head {
+    font-size: 1.5rem;
+  }
+
+  .pre {
+    font-size: 1rem;
+  }
+
+  .slides, .midslides {
+    width: 90%;
+  }
+
+  .footerConter {
+    font-size: medium;
+  }
+}

@@ -1,0 +1,131 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: rgb(21,85,40);
+   display: flex;
+   flex-direction: column;
+   padding-top:20px ;
+   padding-left: 20px;
+
+}
+
+ .header{
+
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ 
+ .logoArea{
+   width: 10%;
+   display: flex;
+   color: #fff;
+   font-weight: bolder;
+   align-items: center;
+   font-size: 2rem;
+   gap: 10px;
+ }
+ 
+ .logo{
+   height: 70px;
+   width: 70px;
+  border-radius: 50%;
+ 
+   border-color: black;
+   border: 2px solid black;
+   
+ }
+ 
+ .logoName{
+   margin-top:10px;
+ } 
+ 
+ 
+ .Nav{
+  width: 50%;
+  display: flex;
+  gap: 40px;
+ 
+ }
+ 
+ .navbarContent{
+ 
+   color: #fff;
+   text-decoration: none;
+   font-size: medium;
+   font-weight: bold;
+ }
+
+
+ .heading{
+  margin: 0 auto;
+  color: yellow;
+ } 
+
+ .content{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+  gap: 50px;
+  margin: 0 auto;
+ }
+
+ .BigBox{
+
+  height: 350px;
+  width: 260px;
+  background-color: rgba(98,204,74,0.84);
+  border: 2px solid rgb(157, 146, 146);
+  border-radius: 20px;
+  
+ }
+
+ .BigBox:hover{
+  transform: scale(1.09);
+  transition: 2s;
+ }
+
+ .circle1{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+  border: 2px solid rgb(157, 146, 146);
+ margin-left: 30%;
+ margin-top: -50px;
+ }
+
+ .circle2{
+  height: 130px;
+  width: 130px;
+  background-color: aqua;
+  border-radius: 50%;
+  border: 2px solid rgb(157, 146, 146);
+ margin-left: 25%;
+ margin-top: -70px;
+
+ }
+
+ .smallBox{
+  height: 300px;
+  width: 270px;
+  background-color: rgba(98,204,74,0.84);
+  border: 2px solid rgb(157, 146, 146);
+  border-radius: 20px;
+ }
+
+ .smallBox:hover{
+  transform: scale(1.10);
+  transition: 2s;
+ }
+
+ .h2{
+  color: yellow;
+  text-align: center;
+ }
+
+ .para{
+  color: #fff;
+  padding: 20px 10px 5px 30px;
+ }

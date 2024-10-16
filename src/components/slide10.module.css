@@ -1,0 +1,281 @@
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: rgb(21,85,40);
+   display: flex;
+   flex-direction: column;
+   padding-top:5px ;
+   padding-left: 20px;
+   overflow: hidden;
+
+ }
+ 
+ .logoArea{
+   width: 10%;
+   display: flex;
+   color: #fff;
+   font-weight: bolder;
+   align-items: center;
+   font-size: 1.5rem;
+   gap: 10px;
+ }
+ 
+ .logo{
+   height: 50px;
+   width: 50px;
+  border-radius: 50%;
+ 
+   border-color: black;
+   border: 2px solid black;
+   
+ }
+ 
+ .logoName{
+   margin-top:10px;
+ } 
+
+
+ .content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+ 
+  justify-content: space-around;
+ }
+
+ .sidebar {
+  width: 250px;
+  background-color: #a89a6b;
+  padding: 20px;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name{
+color: rgb(21,85,40);
+font-weight: bolder;
+}
+
+
+.btn{
+  width: 100%;
+   font-size: 20px;
+   padding-block: 10px;
+   background-color: rgb(21,85,40);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+  }
+
+.menu {
+  padding-top: 20px;
+padding-left: 50px;
+font-size: large;
+ color: green;
+ cursor: pointer;
+}
+
+
+.statGrid{
+
+  padding-inline: 20px;
+  height: 90%;
+  width: 60%;
+  border-radius: 20px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+ 
+ }
+
+ .statGrid1{
+  display: flex;
+gap: 20px;
+ }
+
+
+  .statBox1{
+    background-color: #fff;
+    padding-inline: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size:x-large;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+  }
+
+  .statBox1:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+  .farmland{
+    border-radius: 7px;
+  }
+
+  .statBox2{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+  }
+
+  .statBox2:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+  .statBox3{
+    background-color: #fff;
+    padding-top: 30px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+  }
+
+  .statBox3:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+  .statGrid2{
+    display: flex;
+  gap: 20px;
+   }
+
+  .statBox4{
+    width: 60%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .statBox4:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+
+  .statBox5{
+    background-color: #fff;
+    padding-inline: 35px;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .statBox5:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+  .contract{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .active{
+    font-size: 4rem;
+  }
+
+  .pending{
+    font-size: 4rem;
+    color:#ff0000;
+  }
+
+
+  .statGrid3{
+    display: flex;
+  gap: 20px;
+   }
+
+  .statBox6{
+    width: 40%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .statBox6:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
+
+  .insurance{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .activeimg{
+    position: relative;
+  }
+
+  .act{
+    position: static;
+  
+    left: 42%;
+  }
+
+  
+  .statBox7{
+    width: 55%;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .statBox7:hover{
+    transform: scale(1.09);
+    transition: 2s;
+   }
