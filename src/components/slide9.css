@@ -1,0 +1,259 @@
+
+.Slide9{
+  background-color: rgb(21, 85, 40); 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left-rectangle9 {
+    width: 250px;
+    height: 100vh;
+    background-color: #b4b478;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-circle9 {
+    margin-left: 10px;
+
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background-color: cyan;
+    border-radius: 50%;
+    background-image: url('https://cdn4.vectorstock.com/i/1000x1000/24/28/store-flat-icon-vector-19402428.jpg');
+    background-position: center;
+    background-size: 30px;
+    border: 2px solid black;
+  }
+
+  .contents-container9 {
+    padding-top: 30px;  
+  }
+
+  .heading9 {
+    padding-top: 8px;
+    margin-left: 53px;
+    font-size: 30px;
+    color:rgb(21, 85, 40);
+    position: relative;
+  }
+
+  .contents9 {
+    padding: 10px; 
+    color: rgb(21, 85, 40);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+  
+  }
+  
+  .contents9:hover{
+    background-color:  rgb(21, 85, 40);   
+    color: white;             
+    border: 2px solid white;  
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;   
+  }
+  
+  .home9 {
+   
+    color: rgb(21, 85, 40);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+
+  }
+
+  .main-circle9 {
+    position: relative; 
+    width: 40px;            
+    height: 40px;
+    background-color: cyan;   
+    border-radius: 50%;      
+    border: 2px solid black;
+    top: -720px;
+    left: 260px;
+    background-image: url('https://i.imgur.com/791uIme.jpeg');
+    background-size: 60px;
+    background-position: center;
+  }
+
+  .krishisetu9 {
+    position: relative; 
+    color: white;
+    top: -760px; 
+    left: 310px;
+    margin: 0; 
+    font-size: 30px; 
+  }
+
+  .search-bar9 {
+    position: relative;   
+    background-color: rgb(21, 85, 40); 
+    top: -780px;        
+    right: -900px;      
+    height: 20px;   
+    padding: 20px; 
+    padding-left: 40px;
+    border-radius: 10px; 
+    border: 1px solid #ccc; 
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    background-image: url('https://i.imgur.com/tmx8yfl.png');
+    background-size: 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+  }
+  
+  .search-bar9::placeholder {
+    color: white;  
+  }
+
+  .bell9 {
+    position: relative;       
+    right: -1300px;     
+    top: -690px;            
+    width: 40px;      
+    height: auto;       
+    cursor: pointer;    
+  }
+
+  .rectangle1-9 {
+    width: 1120px; 
+    height: 300px; 
+    background-color: yellowgreen; 
+    position: relative; 
+    top: -800px; 
+    left: 280px; 
+    border: 2px solid rgb(21, 85, 40); 
+    border-radius: 20px; 
+    background-image: url('https://i.imgur.com/dvrO9Tv.png');
+    background-repeat: no-repeat;
+    background-size: 465px;
+    background-position: 20px center;
+  }
+
+  .rect-text9 {
+    color: black ;
+    margin-left: 500px;
+    font-size: 50px;
+  }
+
+  .explore-button9 {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(21, 85, 40);
+    margin-left: 690px;
+    top: 130px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border: 2px solid ;
+  }
+
+  .squares-container1-9 {
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    top: -790px; 
+    left: 280px; 
+    width: 1120px; 
+  }
+
+  .square9 {
+    width: 190px;
+    height: 190px;
+    background-color: white;
+    border: 2px solid rgb(21, 85, 40);
+    border-radius: 10px;
+  }
+  
+  .circle9 {
+    width: 60px; 
+    height: 60px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0.5px solid black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9W15Hh_7mgF-oO3Dl_M32EWBjJUo_cA8Uw&s');
+    background-position: fill;
+    background-size: 60px;
+    background-repeat: no-repeat;
+  }
+  
+  .circle9-p {
+    width: 60px; 
+    height: 60px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0.5px solid black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnHBA1gI4oMmsUln28_uyF66VAdRd52U74J6sTWfDNC0vD4atxE8Ryaux4ulk4KAVxCA&usqp=CAU');
+    background-position: 50%;
+    background-size: 85px;
+    background-repeat: no-repeat;
+  
+  }
+  
+  .name9 {
+    margin-top: 5px;
+    margin-left: 70px;
+    justify-content: space-between;
+  }
+
+  .namep9 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    justify-content: space-between;
+  }
+  
+  .city9 {
+    position: absolute;
+    top: 105px;
+    margin-left: 80px;
+  }
+
+  .squares-container2-9 {
+    display: flex;
+    justify-content: space-between; 
+    position: relative;
+    top: -770px; 
+    left: 280px; 
+    width: 1120px; 
+    
+  }
+
+
+
+  .circle-p9 {
+    width: 60px; 
+    height: 60px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 0.5px solid black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnHBA1gI4oMmsUln28_uyF66VAdRd52U74J6sTWfDNC0vD4atxE8Ryaux4ulk4KAVxCA&usqp=CAU');
+    background-position: 50%;
+    background-size: 85px;
+    background-repeat: no-repeat;
+  
+  }

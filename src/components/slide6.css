@@ -1,0 +1,223 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  
+  html, body {
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
+  }
+  
+  .Slide6 {
+    min-height: 100vh; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(21, 85, 40); 
+  }
+  
+  .krishisetu6-container {
+    display: flex;            
+    align-items: center;      
+    margin-left: 30px;       
+  }
+  
+  .main-circle6 {
+    width: 70px;          
+    height: 70px;
+    background-color: cyan;   
+    border-radius: 50%;    
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-right: 10px;      
+    background-image: url('https://i.imgur.com/791uIme.jpeg');
+    background-size: 90px;
+    background-position: center;
+  }
+  
+  .krishisetu6 {
+    color: white; 
+    text-align: left; 
+    font-size: 40px; 
+    margin-top: 30px; 
+  }
+  
+  .heading6 {
+    color: yellow;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .rectangle-container6 {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;          
+    flex-wrap: nowrap;           
+    margin-top: 30px;            
+  }
+  
+  .rectangle {
+    background-color: rgba(98, 204, 74, 0.84); 
+    margin: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-top: 120px; 
+    position: relative;
+    border: 5px solid white; 
+    border-radius: 30px;
+  }
+  
+  .detail {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .rectangle-1 {
+    width: 220px; 
+    height: 310px;
+  }
+  
+  .circle-1 {
+    width: 85px; 
+    height: 85px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid black;
+    background-image: url('https://media.istockphoto.com/id/1428662573/vector/pen-signing-a-contract-vector-icon-in-line-style-design-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=65MkI5yfF2Sg8Tax5y7XIc1UaozQxHWHOoR-OK7umf0=');
+    background-size: cover;  
+    background-position: center; 
+  }
+  
+  .rectangle-2 {
+    width: 260px; 
+    height: 350px;
+  }
+  
+  .circle-2 {
+    width: 100px; 
+    height: 100px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid black;
+    background-image: url('https://i.pinimg.com/564x/df/07/0e/df070ead2b73250d56c9b88ceb4b76c8.jpg');
+    background-size: 90px;  
+    background-position: center; 
+  }
+  
+  .rectangle-3 {
+    width: 300px; 
+    height: 390px;
+  }
+  
+  .circle-3 {
+    width: 120px; 
+    height: 120px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid black;
+    background-image: url('https://st.depositphotos.com/33945136/60956/v/450/depositphotos_609568184-stock-illustration-handshake-icon-vector-illustration.jpg');
+    background-size: 120px;   
+    background-position: center; 
+  }
+  
+  .rectangle-4 {
+    width: 260px; 
+    height: 350px;
+  }
+  
+  .circle-4 {
+    width: 100px; 
+    height: 100px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid white;
+    background-image: url('https://media.istockphoto.com/id/1417688323/vector/ai-technology-brain-digital-circuit-artificial-intelligence-machine-learning-concept.jpg?s=612x612&w=0&k=20&c=SPp6w35lA-a4stYm9_BoIZ-Vrx6eH7ZVKtUbiGipg20=');
+    background-size: 250px;
+    background-position: center;
+  }
+  
+  .rectangle-5 {
+    width: 220px; 
+    height: 310px;
+  }
+  
+  .circle-5 {
+    width: 85px; 
+    height: 85px; 
+    background-color: cyan; 
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid black;
+    background-image: url('https://www.pngitem.com/pimgs/m/220-2203188_support-icon-customer-service-icon-png-transparent-png.png');
+    background-size: 60px;
+    background-position: center; 
+  }
+  
+  .navbar {
+  
+    padding: 10px 20px;         
+    position: fixed;           
+    top: 0;
+    right: 0;
+    width: 100%;              
+    z-index: 1000;              
+  }
+  
+  
+  .nav-links {
+    list-style: none;           
+    margin: 5;
+    padding: 0;
+    display: flex;              
+    justify-content: flex-end;   
+    align-items: center;      
+  }
+  
+  
+  .nav-links li {
+    margin-left: 20px;          
+  }
+  
+  .nav-links li a {
+    color: white;               
+    text-decoration: none; 
+    font-size: 15px;             
+    font-weight: bold;        
+    padding: 8px 16px;         
+    border-radius: 5px;        
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+    outline: black;
+  }
+  
+  
+  
